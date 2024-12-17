@@ -5,6 +5,8 @@ Official PyTorch implementation of Domain-Guided Conditional Diffusion Model for
 Yulong Zhang*, Shuhao Chen*, Weisen Jiang, Yu Zhang, Jiangang Lu, James T. Kwok.
 
 
+![framework](./figures/Framework.png)
+
 ## Abatract
 Limited transferability hinders the performance of a well-trained deep learning model when applied to new application scenarios. Recently, Unsupervised Domain Adaptation (UDA) has achieved significant progress in addressing this issue via learning domain-invariant features. However, the performance of existing UDA methods is constrained by the possibly large domain shift and limited target domain data. To alleviate these issues, we propose a Domain-guided Conditional Diffusion Model (DCDM), which generates high-fidelity target domain samples, making the transfer from source domain to target domain easier. DCDM introduces class information to control labels of the generated samples, and a domain classifier to guide the generated samples towards the target domain. Extensive experiments on various benchmarks demonstrate that DCDM brings a large performance improvement to UDA.
 <!-- 
