@@ -34,8 +34,11 @@ Our implementation is based on the [ED-DPM](https://github.com/ZGCTroy/ED-DPM), 
 If you find our paper or codebase useful, please consider citing us as:
 ```latex
 @article{zhang2023domain,
-  title={Domain-guided conditional diffusion model for unsupervised domain adaptation},
-  author={Zhang, Yulong and Chen, Shuhao and Jiang, Weisen and Zhang, Yu and Lu, Jiangang and Kwok, James T},
-  journal={arXiv preprint arXiv:2309.14360},
-  year={2023}
+title = {Domain-guided conditional diffusion model for unsupervised domain adaptation},
+author = {Yulong Zhang and Shuhao Chen and Weisen Jiang and Yu Zhang and Jiangang Lu and James T. Kwok},
+journal = {Neural Networks},
+pages = {107031},
+year = {2024},
+issn = {0893-6080},
+doi = {https://doi.org/10.1016/j.neunet.2024.107031}
 }
